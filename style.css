@@ -108,8 +108,8 @@ header, main, footer{
                     }
                     iframe{
                        height: 100%;
-                        max-width:560px;
-                        max-height: 315px;
+                        max-width:640px;
+                        max-height: 480px;
                     }
                     .filter1{
                         width: 100%;
