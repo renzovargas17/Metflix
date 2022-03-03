@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-size: 62.5%;
+    height: 100vh;
+
+    
+    
+   
+}
+body{
+    height: 100%;
+    background-image: url(./pics/jeremy-bishop-G9i_plbfDgk-unsplash\ \(3\).jpg);
+}
+
+header{
+    
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+     
+}
+.container{
+    display: flex;
+    height: 85vh;
+    
+}
+.box{
+    width: 30rem;
+    border-color: rgb(87, 57, 13);
+    border-style:groove double;
+    
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    flex-grow: 1;
+    
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+    font-size: 2rem;
+    backdrop-filter: blur(5px);
+    order: 1;
+    overflow:scroll ;
+    
+    
+    
+}
+.section2 a{
+    text-decoration: none;
+    color: blanchedalmond;
+    
+}
+
+
+img{
+    min-width: 6rem;
+    width: 6rem;
+    height: 6rem;
+    min-height: 6rem;
+    display: inline-block;
+}
+nav{
+    color: blanchedalmond;
+    font-size: 2.3rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.menu_option{
+    display: inline-block;
+    padding-right: 2rem;
+}
+.menu_option a{
+    
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.menu_option::after{
+    padding-left: 1rem;
+    content: " | ";
+    color: blanchedalmond;
+}
+#mini::after{
+    content: none;
+}
+.menu_option a:hover{
+    opacity: 0.5;
+}
+
+.titles a:hover{
+    opacity: 0.5;
+}
+.titles{
+    margin-bottom: 1rem;
+}
+
+footer{
+    display: flex;
+    font-size: 2rem;
+    height: 7vh;
+    background-color: black;
+    color: rgb(170, 109, 18);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icons{
+    width: 20rem;
+    height: 4rem;
+}
+.item{
+    text-align: center;
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.thumbnail{
+    border: 2px solid rgb(170, 109, 18) ;
+    width: 22rem;
+    height: 15rem;
+
+}
+
+
+
